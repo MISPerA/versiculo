@@ -25,17 +25,16 @@ const versiculos = [
 ];
 
 const verseElement = document.getElementById('verse');
+const verseReferenceElement = document.getElementById('verse-reference');
 
 // Função para gerar um versículo aleatório
 function generateRandomVerse() {
     const randomIndex = Math.floor(Math.random() * versiculos.length);
     const randomVerse = versiculos[randomIndex];
 
-    // Formate as informações para exibição
-    const formattedInfo = `${randomVerse.livro} ${randomVerse.capitulo}:${randomVerse.versiculo} - ${randomVerse.versao}`;
-
-    // Atualize o conteúdo do versículo
-    verseElement.textContent = randomVerse.texto + ' - ' + formattedInfo;
+    // Atualize o conteúdo do versículo e da referência
+    verseElement.textContent = randomVerse.texto;
+    verseReferenceElement.textContent = `${randomVerse.livro} ${randomVerse.capitulo}:${randomVerse.versiculo} - ${randomVerse.versao}`;
 }
 
 // Gere um versículo aleatório ao carregar a página
