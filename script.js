@@ -25,18 +25,17 @@ const versiculos = [
 ];
 
 const verseElement = document.getElementById('verse');
-const versionElement = document.querySelector('.version');
-const bookChapterElement = document.querySelector('.book-chapter');
 
 // Função para gerar um versículo aleatório
 function generateRandomVerse() {
     const randomIndex = Math.floor(Math.random() * versiculos.length);
     const randomVerse = versiculos[randomIndex];
 
-    // Atualize o conteúdo do versículo, versão, livro e capítulo
-    verseElement.textContent = randomVerse.texto;
-    versionElement.textContent = `Versão: ${randomVerse.versao}`;
-    bookChapterElement.textContent = `Livro: ${randomVerse.livro}, Capítulo: ${randomVerse.capitulo}, Versículo: ${randomVerse.versiculo}`;
+    // Formate as informações para exibição
+    const formattedInfo = `${randomVerse.livro} ${randomVerse.capitulo}:${randomVerse.versiculo} - ${randomVerse.versao}`;
+
+    // Atualize o conteúdo do versículo
+    verseElement.textContent = randomVerse.texto + ' - ' + formattedInfo;
 }
 
 // Gere um versículo aleatório ao carregar a página
