@@ -36,7 +36,7 @@ function generateRandomVerse() {
     // Atualize o conteúdo do versículo, versão, livro e capítulo
     verseElement.textContent = randomVerse.texto;
     versionElement.textContent = `Versão: ${randomVerse.versao}`;
-    bookChapterElement.textContent = `Livro: ${randomVerse.livro}, Capítulo: ${randomVerse.capitulo}`;
+    bookChapterElement.textContent = `Livro: ${randomVerse.livro}, Capítulo: ${randomVerse.capitulo}, Versículo: ${randomVerse.versiculo}`;
 }
 
 // Gere um versículo aleatório ao carregar a página
