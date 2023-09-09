@@ -28,14 +28,10 @@ main {
     margin-bottom: 20px;
 }
 
-.translation {
+#verse {
     font-weight: bold;
-    color: #01B9D0; /* Cor do texto da versão */
-}
-
-.book-chapter {
-    font-weight: bold;
-    color: #01B9D0; /* Cor do texto do livro, capítulo e versículo */
+    color: #01B9D0; /* Cor do texto do versículo */
+    text-align: center;
 }
 
 .footer {
