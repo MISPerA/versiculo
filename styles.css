@@ -25,4 +25,22 @@ main {
 .verse-container {
     border: 1px solid #ccc;
     padding: 20px;
-    margin
+    margin-bottom: 20px;
+}
+
+.translation {
+    font-weight: bold;
+    color: #01B9D0; /* Cor do texto da versão */
+}
+
+.book-chapter {
+    font-weight: bold;
+    color: #01B9D0; /* Cor do texto do livro, capítulo e versículo */
+}
+
+.footer {
+    background-color: #01B9D0; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px 0;
+}
