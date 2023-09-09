@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #01BAD2; /* Cor de fundo do cabeçalho */
+    background-color: #01B9D0; /* Cor de fundo do cabeçalho */
     color: white; /* Cor do texto do cabeçalho */
     text-align: center;
     padding: 20px 0;
@@ -25,12 +25,4 @@ main {
 .verse-container {
     border: 1px solid #ccc;
     padding: 20px;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #01BAD2; /* Cor de fundo do rodapé */
-    color: white; /* Cor do texto do rodapé */
-    text-align: center;
-    padding: 10px 0;
-}
+    margin
