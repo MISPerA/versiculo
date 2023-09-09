@@ -40,9 +40,13 @@ main {
     text-align: center;
 }
 
-.footer {
+footer {
     background-color: #01B9D0; /* Cor de fundo do rodapé */
     color: white; /* Cor do texto do rodapé */
     text-align: center;
     padding: 10px 0;
+}
+
+.instagram {
+    color: #01B9D0; /* Cor do texto do Instagram */
 }
