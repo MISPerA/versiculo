@@ -49,6 +49,15 @@ footer {
     padding: 10px 0;
 }
 
+.instagram {
+    color: white; /* Cor do texto do Instagram em branco */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+}
+
+.instagram:hover {
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
+}
+
 .instagram-link {
     color: white; /* Cor do texto do Instagram em branco */
     text-decoration: none; /* Remover sublinhado padrão de links */
