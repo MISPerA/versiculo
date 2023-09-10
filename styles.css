@@ -31,7 +31,7 @@ main {
 
 #verse {
     font-weight: bold;
-    color: #01B9D0; /* Cor do texto do versículo */
+    color: #FFFFFF; /* Cor do texto do versículo */
     text-align: center;
 }
 
@@ -49,5 +49,5 @@ footer {
 }
 
 .instagram {
-    color: #01B9D0; /* Cor do texto do Instagram */
+    color: white; /* Cor do texto do Instagram em branco */
 }
