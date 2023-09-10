@@ -1,7 +1,7 @@
 // Lista de versículos bíblicos (substitua com seus próprios versículos)
 const versiculos = [
     {
-        versao: "ARC",
+        versao: "Almeida Revista e Corrigida",
         livro: "João",
         capitulo: 3,
         versiculo: 16,
@@ -15,7 +15,7 @@ const versiculos = [
         texto: "O Senhor é o meu pastor; nada me faltará."
     },
     {
-        versao: "ARC",
+        versao: "Almeida Revista e Corrigida",
         livro: "Filipenses",
         capitulo: 4,
         versiculo: 13,
@@ -39,3 +39,9 @@ function generateRandomVerse() {
 
 // Gere um versículo aleatório ao carregar a página
 generateRandomVerse();
+
+// Redirecionar para o perfil do Instagram ao clicar no link
+const instagramLink = document.querySelector('.instagram');
+instagramLink.addEventListener('click', function () {
+    window.open(instagramLink.getAttribute('href'), '_blank');
+});
