@@ -1,7 +1,7 @@
 // Lista de versículos bíblicos (substitua com seus próprios versículos)
 const versiculos = [
     {
-        versao: "Almeida Revista e Corrigida",
+        versao: "ARC",
         livro: "João",
         capitulo: 3,
         versiculo: 16,
@@ -15,7 +15,7 @@ const versiculos = [
         texto: "O Senhor é o meu pastor; nada me faltará."
     },
     {
-        versao: "Almeida Revista e Corrigida",
+        versao: "ARC",
         livro: "Filipenses",
         capitulo: 4,
         versiculo: 13,
