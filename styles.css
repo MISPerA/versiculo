@@ -30,7 +30,7 @@ main {
 }
 
 #verse {
-    font-weight: bold;
+    font-weight: sans-serif;
     color: #FFFFFF; /* Cor do texto do versículo */
     text-align: center;
 }
