@@ -31,7 +31,7 @@ main {
 
 #verse {
     font-weight: sans-serif;
-    color: #000000; /* Cor do texto do versículo */
+    color: white; /* Cor do texto do versículo */
     text-align: center;
 }
 
