@@ -50,10 +50,11 @@ footer {
 }
 
 .instagram-link {
+    color: white; /* Cor do texto do Instagram em branco */
     text-decoration: none; /* Remover sublinhado padrão de links */
     display: inline-block; /* Tornar o ícone e o nome de usuário em linha */
 }
 
 .instagram-link:hover .fab {
-    text-decoration: none; /* Remover sublinhado quando o mouse estiver sobre o ícone */
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
 }
