@@ -30,7 +30,7 @@ main {
 }
 
 #verse {
-    font-weight: bold;
+    font-weight: normal; /* Remover o negrito do texto do versículo */
     color: white; /* Cor do texto do versículo (branco) */
     text-align: center;
 }
