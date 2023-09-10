@@ -31,7 +31,7 @@ main {
 
 #verse {
     font-weight: bold;
-    color: #FFFFFF; /* Cor do texto do versículo */
+    color: #01B9D0; /* Cor do texto do versículo */
     text-align: center;
 }
 
@@ -50,4 +50,9 @@ footer {
 
 .instagram {
     color: white; /* Cor do texto do Instagram em branco */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+}
+
+.instagram:hover {
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
 }
