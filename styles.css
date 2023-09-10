@@ -38,7 +38,8 @@ main {
 .verse-info {
     font-weight: bold;
     color: #01B9D0; /* Cor do texto da informação do versículo */
-    text-align: center;
+    text-align: right; /* Alinhar com o canto direito */
+    margin-top: 10px; /* Espaçamento superior */
 }
 
 footer {
@@ -50,5 +51,4 @@ footer {
 
 .instagram {
     color: white; /* Cor do texto do Instagram em branco */
-    text-decoration: none; /* Remover sublinhado padrão de links */
 }
