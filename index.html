@@ -1,27 +1,58 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Versículo para Você</title>
-</head>
-<body>
-    <header>
-        <h1>Versículo para Você</h1>
-    </header>
-    <main>
-        <div class="verse-container">
-            <p id="verse"></p>
-            <p class="verse-info"><span id="verse-reference"></span></p>
-        </div>
-    </main>
-    <footer>
-        <p>
-            <i class="fab fa-instagram"></i> <a class="instagram" href="https://www.instagram.com/mis.pera/" target="_blank">@mis.pera</a>
-        </p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto do corpo */
+}
+
+header {
+    background-color: #01B9D0; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.verse-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#verse {
+    font-weight: bold;
+    color: #01B9D0; /* Cor do texto do versículo */
+    text-align: center;
+}
+
+.verse-info {
+    font-weight: bold;
+    color: #01B9D0; /* Cor do texto da informação do versículo */
+    text-align: center;
+}
+
+footer {
+    background-color: #01B9D0; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.instagram {
+    color: white; /* Cor do texto do Instagram em branco */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+}
+
+.instagram:hover {
+    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
+}
