@@ -52,7 +52,3 @@ footer {
     color: white; /* Cor do texto do Instagram em branco */
     text-decoration: none; /* Remover sublinhado padrão de links */
 }
-
-.instagram:hover {
-    text-decoration: underline; /* Adicionar sublinhado quando o mouse estiver sobre o link */
-}
