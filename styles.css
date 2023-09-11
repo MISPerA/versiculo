@@ -32,6 +32,7 @@ main {
 #verse {
     font-weight: normal; /* Remover o negrito do texto do versículo */
     color: white; /* Cor do texto do versículo (branco) */
+    white-space: pre-line; /* ou pre-wrap */
     text-align: center;
 }
 
