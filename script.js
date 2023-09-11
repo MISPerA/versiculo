@@ -5,7 +5,7 @@ const versiculos = [
         livro: "João",
         capitulo: 3,
         versiculo: 16,
-        texto: "13- Porque Deus amou tanto o mundo que deu seu Filho único, para que todo o que nele crer não pereça, mas tenha a vida eterna."
+        texto: "13- \"Porque Deus amou tanto o mundo que deu seu Filho único, para que todo o que nele crer não pereça, mas tenha a vida eterna."
     },
     {
         versao: "NVT",
@@ -75,21 +75,21 @@ const versiculos = [
         livro: "João",
         capitulo: 8,
         versiculo: "31-32",
-        texto: "31- Jesus disse aos judeus que creram nele: Vocês são verdadeiramente meus discípulos se permanecerem fiéis a meus ensinamentos. 32- Então conhecerão a verdade, e a verdade os libertará."
+        texto: "31- Jesus disse aos judeus que creram nele: \"Vocês são verdadeiramente meus discípulos se permanecerem fiéis a meus ensinamentos. 32- Então conhecerão a verdade, e a verdade os libertará\"."
     },
     {
         versao: "NVT",
         livro: "João",
         capitulo: 8,
         versiculo: 11,
-        texto: "11- Não, Senhor, respondeu ela. E Jesus disse: Eu também não a condeno. Vá e não peque mais."
+        texto: "11- \"Não, Senhor\", respondeu ela. E Jesus disse: \"Eu também não a condeno. Vá e não peque mais\"."
     },
     {
         versao: "NVT",
         livro: "Mateus",
         capitulo: 6,
         versiculo: "33-34",
-        texto: "33- Busquem, em primeiro lugar, o reino de Deus e a sua justiça, e todas essas coisas lhes serão dadas. 34- Portanto, não se preocupem com o amanhã, pois o amanhã trará suas próprias inquietações. Bastam para hoje os problemas deste dia."
+        texto: "33- Busquem, em primeiro lugar, o reino de Deus e a sua justiça, e todas essas coisas lhes serão dadas. 34- \"Portanto, não se preocupem com o amanhã, pois o amanhã trará suas próprias inquietações. Bastam para hoje os problemas deste dia\"."
     },
     // Adicione mais versículos aqui
 ];
