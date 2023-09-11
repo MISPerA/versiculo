@@ -1,102 +1,95 @@
 // Lista de versículos bíblicos (substitua com seus próprios versículos)
 const versiculos = [
 {
-        versao: "ARC",
+        versao: "NVT",
         livro: "João",
         capitulo: 3,
         versiculo: 16,
-        texto: "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."
+        texto: "13- Porque Deus amou tanto o mundo que deu seu Filho único, para que todo o que nele crer não pereça, mas tenha a vida eterna."
     },
     {
-        versao: "NVI",
+        versao: "NVT",
         livro: "Salmo",
         capitulo: 23,
         versiculo: 1,
-        texto: "O Senhor é o meu pastor; nada me faltará."
+        texto: "1- O Senhor é meu pastor, e nada me faltará."
     },
     {
-        versao: "ARC",
+        versao: "NVT",
         livro: "Filipenses",
         capitulo: 4,
         versiculo: 13,
-        texto: "Tudo posso naquele que me fortalece."
+        texto: "13- Posso todas as coisas por meio de Cristo, que me dá forças."
     },
     {
         versao: "NVT",
         livro: "Filipenses",
         capitulo: 4,
         versiculo: 6,
-        texto: "Não fiquem ansiosos por motivo algum; pelo contrário, orem a Deus em todos os momentos e peçam a ele tudo o que vocês precisam, agradecendo-lhe por tudo."
+        texto: "6- Não vivam preocupados com coisa alguma; em vez disso, orem a Deus pedindo aquilo de que precisam e agradecendo-lhe por tudo que ele já fez."
     },
     {
         versao: "NVT",
         livro: "Filipenses",
         capitulo: 4,
         versiculo: 8,
-        texto: "Por fim, meus irmãos e irmãs, encham a mente de vocês com tudo o que é verdadeiro, nobre, respeitável, certo, puro, adorável e de boa fama; se houver virtude e se algo for digno de louvor, pensem nessas coisas."
-    },
-    {
-        versao: "NVT",
-        livro: "João",
-        capitulo: 3,
-        versiculo: 16,
-        texto: "Pois Deus amou o mundo de tal maneira que deu seu Filho único, para que todo aquele que nele crer não pereça, mas tenha a vida eterna."
+        texto: "8- Por fim, irmãos, quero lhes dizer só mais uma coisa. Concentrem-se em tudo que é verdadeiro, tudo que é nobre, tudo que é correto, tudo que é puro, tudo que é amável e tudo que é admirável. Pensem no que é excelente e digno de louvor."
     },
     {
         versao: "NVT",
         livro: "Efésios",
         capitulo: 6,
         versiculo: 11,
-        texto: "Vistam toda a armadura de Deus, para poderem ficar firmes contra as ciladas do Diabo."
+        texto: "11- Vistam toda a armadura de Deus, para que possam permanecer firmes contra as estratégias do diabo."
     },
     {
         versao: "NVT",
         livro: "Efésios",
         capitulo: 5,
         versiculo: 1,
-        texto: "Portanto, imitem a Deus, como filhos muito amados."
+        texto: "1- Portanto, como filhos amados de Deus, imitem-no em tudo que fizerem."
     },
     {
         versao: "NVT",
         livro: "Efésios",
         capitulo: 5,
         versiculo: 2,
-        texto: "Vivam em amor, seguindo o exemplo de Cristo, que nos amou e se entregou por nós como oferta e sacrifício de aroma agradável a Deus."
+        texto: "2- Vivam em amor, seguindo o exemplo de Cristo, que nos amou e se entregou por nós como oferta e sacrifício de aroma agradável a Deus."
     },
     {
         versao: "NVT",
         livro: "Efésios",
         capitulo: 5,
         versiculo: 19,
-        texto: "cantem uns para os outros salmos, hinos e canções espirituais; louvem o Senhor de todo o coração."
+        texto: "19- cantando salmos, hinos e cânticos espirituais entre si e louvando o Senhor de coração com música."
     },
     {
         versao: "NVT",
         livro: "Efésios",
         capitulo: 5,
         versiculo: 20,
-        texto: "e, em nome de nosso Senhor Jesus Cristo, agradeçam constantemente a Deus, o Pai, por todas as coisas."
+        texto: "20- Por tudo deem graças a Deus, o Pai, em nome de nosso Senhor Jesus Cristo."
     },
     {
         versao: "NVT",
         livro: "João",
         capitulo: 8,
         versiculo: "31-32",
-        texto: "Disse, pois, Jesus aos judeus que haviam crido nele: Se vós permanecerdes na minha palavra, verdadeiramente sereis meus discípulos; e conhecereis a verdade, e a verdade vos libertará."
+        texto: "31- Jesus disse aos judeus que creram nele: Vocês são verdadeiramente meus discípulos se permanecerem fiéis a meus ensinamentos. 32- Então conhecerão a verdade, e a verdade os libertará."
     },
     {
         versao: "NVT",
         livro: "João",
         capitulo: 8,
         versiculo: 11,
-        texto: "E ela disse: Ninguém, Senhor. Então, lhe disse Jesus: Nem eu tampouco te condeno; vai e não peques mais."
+        texto: "11- Não, Senhor, respondeu ela. E Jesus disse: Eu também não a condeno. Vá e não peque mais."
     },
     {
         versao: "NVT",
         livro: "Mateus",
         capitulo: 6,
         versiculo: "33-34",
-        texto: "Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas. Portanto, não se preocupem com o amanhã, pois o amanhã se preocupará consigo mesmo. Basta a cada dia o seu próprio mal."
+        texto: "33- Busquem, em primeiro lugar, o reino de Deus e a sua justiça, e todas essas coisas lhes serão dadas. 34- Portanto, não se preocupem com o amanhã, pois o amanhã trará suas próprias inquietações. Bastam para hoje os problemas deste dia."
     },
     // Adicione mais versículos aqui
 ];
