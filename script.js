@@ -75,7 +75,7 @@ const versiculos = [
         livro: "João",
         capitulo: 8,
         versiculo: "31-32",
-        texto: "31- Jesus disse aos judeus que creram nele: \"Vocês são verdadeiramente meus discípulos se permanecerem fiéis a meus ensinamentos. \n32- Então conhecerão a verdade, e a verdade os libertará\"."
+        texto: "31- Jesus disse aos judeus que creram nele: \"Vocês são verdadeiramente meus discípulos se permanecerem fiéis a meus ensinamentos. \n\n32- Então conhecerão a verdade, e a verdade os libertará\"."
     },
     {
         versao: "NVT",
@@ -89,7 +89,7 @@ const versiculos = [
         livro: "Mateus",
         capitulo: 6,
         versiculo: "33-34",
-        texto: "33- Busquem, em primeiro lugar, o reino de Deus e a sua justiça, e todas essas coisas lhes serão dadas. \n34- \"Portanto, não se preocupem com o amanhã, pois o amanhã trará suas próprias inquietações. Bastam para hoje os problemas deste dia\"."
+        texto: "33- Busquem, em primeiro lugar, o reino de Deus e a sua justiça, e todas essas coisas lhes serão dadas. \n\n34- \"Portanto, não se preocupem com o amanhã, pois o amanhã trará suas próprias inquietações. Bastam para hoje os problemas deste dia\"."
     },
     // Adicione mais versículos aqui
 ];
