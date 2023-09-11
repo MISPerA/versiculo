@@ -1,6 +1,6 @@
 // Lista de versículos bíblicos (substitua com seus próprios versículos)
 const versiculos = [
-    {
+{
         versao: "ARC",
         livro: "João",
         capitulo: 3,
@@ -98,7 +98,7 @@ const versiculos = [
         versiculo: "33-34",
         texto: "Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas. Portanto, não se preocupem com o amanhã, pois o amanhã se preocupará consigo mesmo. Basta a cada dia o seu próprio mal."
     },
-    // Continue adicionando mais versículos aqui...
+    // Adicione mais versículos aqui
 ];
 
 const verseElement = document.getElementById('verse');
@@ -107,4 +107,18 @@ const verseReferenceElement = document.getElementById('verse-reference');
 // Função para gerar um versículo aleatório
 function generateRandomVerse() {
     const randomIndex = Math.floor(Math.random() * versiculos.length);
-    const randomVerse = versiculos[randomIndex
+    const randomVerse = versiculos[randomIndex];
+
+    // Atualize o conteúdo do versículo e da referência
+    verseElement.textContent = randomVerse.texto;
+    verseReferenceElement.textContent = `${randomVerse.livro} ${randomVerse.capitulo}:${randomVerse.versiculo} - ${randomVerse.versao}`;
+}
+
+// Gere um versículo aleatório ao carregar a página
+generateRandomVerse();
+
+// Redirecionar para o perfil do Instagram ao clicar no link
+const instagramLink = document.querySelector('.instagram');
+instagramLink.addEventListener('click', function () {
+    window.open(instagramLink.getAttribute('href'), '_blank');
+});
